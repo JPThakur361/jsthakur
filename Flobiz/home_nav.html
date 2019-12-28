@@ -1,0 +1,174 @@
+<html>
+    <head class ="bg-red">
+            <title>Jagpreet</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+        <link rel="icon" type="text" href="#">
+       <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+              <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+         
+    <style>
+
+
+.bg-red {
+  background: #eb42fa;
+        
+
+}
+
+.p{
+ color: black;
+}
+
+
+  nav{
+      margin: 0;
+      overflow:hidden;
+      text-align: center;
+  }
+  
+  nav ul{
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li{
+      display: inline-block;
+      list-style-type: none;
+  }
+  
+  nav > ul > li > a{
+      color: #aaa;
+      display: block;
+      line-height: 2em;
+      padding: 0.5em 1em;
+      text-decoration: none;
+  }
+ 
+  .bg-div{
+      background:while;
+  }
+ 
+/*------Blogcss  */ 
+
+.parent-div{
+   width:715px;
+   height:610px;
+   border:1px solid black;
+   margin:0 auto;
+  border-radius:2px;
+}
+.child-div{
+   width:680px;
+   height:300px;
+   
+   border:1px solid black;
+   margin:0 auto;
+  
+}
+
+  nav{
+      margin: 0;
+      overflow:hidden;
+      text-align: center;
+  }
+  
+  nav ul{
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li{
+      display: inline-block;
+      list-style-type: none;
+  }
+  
+  nav > ul > li > a{
+      color: #aaa;
+      display: block;
+      line-height: 2em;
+      padding: 0.5em 1em;
+      text-decoration: none;
+  }
+ 
+  .bg-div{
+      background:white;
+  }
+/*--- blog button*/
+.input{
+    width:680;
+   border-radius:1px;
+   padding:2px 0 0 5px;
+   border:1px solid black;
+   margin:1px auto;
+  margin-left:20px;
+  border-radius:2px;
+  
+     
+    
+}
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: black;
+  display: inline-block;
+  font-size: 16px;
+  border:1px solid black;
+}
+        </style>
+    
+      
+    </head>
+    <body class ="bg-red">
+    <div class="bg-div" id="bg" >
+       
+        <nav>
+            <ul >
+                <li><a class="active" href="css/main.css"><i class="fa fa-home" ></i> Home</a> </li>
+                <li><a class="active" href="css/main.css"><i class="fa fa-user"> Profile</i></a> </li> 
+                  
+                 
+                <li><a class="active" href="css/main.css"><i class="fa fa-plus" > Add new post </i></a></li>
+                 
+                <li><a class="active" href="css/main.css"><i class="fa fa-lock" > Logout</i></a></li>
+                
+            </ul>
+        </nav>
+    </div>
+      <hr>
+      <!---CKEDITER tool -->
+      <div class="parent-div">
+        Create new blog:
+       <br>
+        Title:
+       <input type="url" class="input" placeholder="title.."  >
+         <br><br>
+         Image url:
+         <input type="text" class="input" placeholder="title..">
+           
+          <h4>description</h4>
+           <div class="child-div">
+              <div class="bg-div">
+               <textarea name="editor1"></textarea>
+            <script>
+                    CKEDITOR.replace( 'editor1' );
+            </script>     
+          <br>
+         <form metho="post" action="new_post.html"> 
+       <button type="submit"   >submit</button>
+         </form>
+</div> 
+               
+    
+      
+    </body>
+    </html>
+  
